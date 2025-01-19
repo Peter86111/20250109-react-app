@@ -49,7 +49,7 @@ export const Login = () => {
   return (
     <div ref={vantaRef} style={{ height: "100vh", width: "100%", position: "relative" }}>
       <div style={styles.container}>
-        <h1 style={styles.title}>🎄 Karácsonyi Bejelentkezés 🎅</h1>
+        <h1 style={styles.title}>Bejelentkezés</h1>
         {error && <p style={styles.error}>{error}</p>}
         <div style={styles.inputGroup}>
           <label style={styles.label}>Felhasználónév:</label>
